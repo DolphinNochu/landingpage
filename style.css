@@ -1,0 +1,55 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    height: px;
+    background-color: plum;
+
+}
+
+#nav{
+    display: inline-block;
+
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a{
+    color: whitesmoke; 
+    text-transform:uppercase; 
+
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block
+}
+
+#nav li:hover .subnav{
+    display:block
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+    color: black;
+    background-color: lightgray;
+}
+#nav .subnav{
+    display: none;
+    position:absolute;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+}
+
+#nav .subnav a {
+    color: black;
+}
+
+.logo-img {
+    
+}
